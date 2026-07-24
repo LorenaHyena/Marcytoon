@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webtoon Studio - Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/login.css">
+
+    <!-- Fonte (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="login-box">
+
+            <div class="logo">
+                <h1>📚 Webtoon Studio</h1>
+                <p>Publique e compartilhe suas histórias.</p>
+            </div>
+
+            <form id="loginForm">
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">Senha</label>
+
+                    <input
+                        type="password"
+                        id="senha"
+                        name="senha"
+                        placeholder="Digite sua senha"
+                        required
+                    >
+                </div>
+
+                <div class="options">
+
+                    <label class="remember">
+                        <input type="checkbox">
+                        Lembrar de mim
+                    </label>
+
+                    <a href="#">Esqueci minha senha</a>
+
+                </div>
+
+                <button type="submit" class="btn-login">
+                    Entrar
+                </button>
+
+            </form>
+
+            <div class="divider">
+                <span>ou</span>
+            </div>
+
+            <button class="btn-google">
+                Entrar com Google
+            </button>
+
+            <p class="register">
+                Ainda não possui uma conta?
+                <a href="cadastro.html">Criar conta</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- JavaScript -->
+    <script src="../javascript/login.js"></script>
+
+</body>
+</html>
